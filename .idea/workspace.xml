@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b352640-fd94-48bb-b88a-9a0660f52ec2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/advertisement-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/advertisement-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/templates/top-sellers.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/top-sellers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
