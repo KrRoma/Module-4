@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2b352640-fd94-48bb-b88a-9a0660f52ec2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/advertisements/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/advertisements/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/advertisements/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/advertisements/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/app_advertisements/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/app_advertisements/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advertisements/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertisements/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertisements/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>

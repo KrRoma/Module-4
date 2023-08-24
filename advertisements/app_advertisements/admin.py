@@ -2,12 +2,12 @@ from django.contrib import admin
 from .models import Advertisement
 
 class Advertisement_Admin(admin.ModelAdmin):
-    list_display = ['id','title', 'description', 'prise', 'created_date', 'updated_date','auction' ]
+    list_display = ['id','user','title', 'description', 'prise', 'created_date', 'updated_date','auction','image']
     list_filter = ['auction','created_at',]
     actions = ['make_auction_as_false','make_auction_as_true']
     fieldsets = (
         ('Oбщее',{
-            'fields':('title','description')
+            'fields':('title','description','user','image')
         }),
         ('Финансы',{
             'fields':('prise','auction'),
