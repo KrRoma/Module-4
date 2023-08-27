@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib import admin
 from django.contrib.auth import get_user_model
+from django.utils import timezone
+from django.utils.html import format_html
 
 User=get_user_model()
 
@@ -32,8 +34,6 @@ class Advertisement(models.Model):
 
     @admin.display(description='дата обновления')
     def updated_date(self):
-        from django.utils import timezone
-        from django.utils.html import format_html
         if self.updated_at.date() == timezone.now().date():
             updated_time = self.updated_at.time().strftime('%H:%M:%S')
             return format_html('<span style="color:yellow; font-weight:bold;">Сегодня в {} </span>', updated_time)
@@ -41,9 +41,6 @@ class Advertisement(models.Model):
 
     @admin.display(description='фото')
     def image_display(self):
-        from django.utils.html import format_html
         if self.image:
             return format_html(
-                '<img src="{}" style="width: 55px;">',self.image.url)
-        else:
-            return 'No Image'
+                '<img src="{url}" style="max_width: 55px; max-height=30px;">', url=self.image.url)
